@@ -80,7 +80,7 @@ export class AppComponent implements OnInit {
 
   initializeApp() {
     this.platform.ready().then(() => {
-      // add comment test auto deploy
+      // add comment test auto deploy 2
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
